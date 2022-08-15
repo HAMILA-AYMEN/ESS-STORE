@@ -1,0 +1,69 @@
+body {
+  background-image: url("img/background.jpg");
+  
+ }
+
+
+ .navbar{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+.music{
+    visibility:hidden
+}
+
+
+.modal {
+    font-size: 12px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+
+
+
+  .main {
+   
+    margin-left: 700px;
+    
+    
+}
+
+
+.zoom img{
+  width: 200px;
+transition: transform .1s;
+}
+
+.zoom img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  }
